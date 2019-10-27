@@ -1,0 +1,46 @@
+.footer {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Lato', sans-serif;
+  p{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #424D57;
+  }
+}
+.footer-phone {
+  padding-top: 20px;
+  p{
+    display: flex;
+    align-items: center;
+    font-size: 13px!important;
+    line-height: 20px;
+    color: #424D57;
+    font-weight: normal;
+  }
+
+  span {
+    color: #424D57;
+  }
+}
+.footer-logo {
+
+  opacity: 0.3;
+
+}
+
+.footer-pepsico{
+  p{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+  }
+}

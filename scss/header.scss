@@ -1,0 +1,116 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.logo {
+  opacity: 0.3;
+  padding-top: 28px;
+
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 40px;
+  list-style: none;
+
+
+  a:nth-child(1) {
+    color: red;
+    padding-left: 72px;
+    text-decoration: none;
+  }
+  a:nth-child(2){
+    color: #000000;
+    padding-left: 42px;
+    text-decoration: none;
+  }
+  a:nth-child(3){
+    color: #000000;
+    padding-left: 28px;
+    text-decoration: none;
+  }
+}
+.cabinet {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 27px;
+
+  a:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #424D57;
+    font-family: Lato;
+    background: #F1F2F3;
+    border-radius: 5px;
+    width: 194px;
+    height: 46px;
+    text-decoration: none;
+
+  }
+    a:nth-child(2) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #FFFFFF;
+      font-family: Lato;
+      background: #CA001A;
+      border-radius: 5px;
+      width: 170px;
+      height: 46px;
+      text-decoration: none;
+      margin-left: 20px;
+
+    }
+
+}
+.number-one {
+  display: flex;
+  justify-content: center;
+  font-family: Lato;
+  font-size: 28px;
+  color: #424D57;
+}
+.number-heading {
+  display: flex;
+  justify-content: center;
+  font-family: Lato;
+  font-weight: bold;
+  font-size: 24px;
+  color: #424D57;
+  font-weight: bold;
+}
+.number-txt {
+  display: flex;
+  justify-content: center;
+  font-family: Lato;
+  color: #424D57;
+  text-align: center;
+}
+.svg {
+
+  position:absolute;
+  right:-10px;
+}
+.svg1 {
+  position:absolute;
+  right:-20px;
+}
+.svg2 {
+  position:absolute;
+  right: -10px;
+}
+.win {
+  padding-top: 100px;
+}
+.prize {
+  padding-top: 100px;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
